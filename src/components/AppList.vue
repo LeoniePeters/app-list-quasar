@@ -29,6 +29,20 @@
         <q-card-separator/>
         <q-card-main>Manage the entire legal transaction process from diligence to closing.</q-card-main>
       </q-card>
+            <q-card inline style="min-width: 300px; width: 30%; height: 210px;">
+        <q-card-media style="float: left; padding: 10px">
+          <img src="~assets/Clause.png">
+        </q-card-media>
+        <q-card-title style="padding: 0px; padding-top: 10px;">Clause</q-card-title>
+        <q-card-main>
+          <q-checkbox readonly v-model="check1" style="float: right"/>
+          <p class="text-faded">Connected Contracting.</p>
+        </q-card-main>
+        <q-card-separator/>
+        <q-card-main>
+          Clause builds the technology infrastructure for connected contracts to increase the value and improve the management of your business agreements.
+        </q-card-main>
+      </q-card>
     </div>
   </div>
 </template>
