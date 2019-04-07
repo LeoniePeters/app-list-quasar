@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" style="background-color:#f3f4f9; margin: 0">
     <!-- <q-layout-header>
       <q-toolbar
         color="primary"
